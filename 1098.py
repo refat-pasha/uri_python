@@ -1,6 +1,6 @@
 for i in range(11):
     for i2 in range(3):
-        i2+=1
+        i2 += 1
         r = i*0.2
         r2 = i2+i*0.2
         if r == int(r):
