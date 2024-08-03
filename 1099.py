@@ -1,7 +1,7 @@
-x = input()
+x = int(input())
 
 for i in range(x):
-    a, b = (raw_input()).split(' ')
+    a, b = (input()).split(' ')
     o = sorted([int(a), int(b)])
     a = o[1]
     b = o[0] + 1
@@ -10,6 +10,6 @@ for i in range(x):
     while a > b:
         if b % 2 != 0:
             s += b
-        b+=1
+        b += 1
 
-    print s
+    print(s)
